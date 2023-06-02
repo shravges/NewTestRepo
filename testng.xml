@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<!-- <listeners>
+	<listener class-name ="MyTestNGPractice.TestNGListener" />
+	</listeners>  -->
+
+	<groups>
+		<run>
+		<include name="regression" />
+		</run>
+	
+	</groups>
+
+  <test name="Execution">
+    <classes>
+      <class name="TestNgParallelExecution.TestClass1"/>
+      <class name="TestNgParallelExecution.TestClass2"/>
+    </classes>
+  </test>
+  
+</suite> 
